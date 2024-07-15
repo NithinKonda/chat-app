@@ -86,7 +86,7 @@ export const logout = (req,res) =>
             res.status(200).json({message:"Logged out successfully"})
             
         } catch (error) {
-            console.log("error in login controller", error.message)
+            console.log("error in logout controller", error.message)
             res.status(500).json({error:"internal server error"})
         }
     }

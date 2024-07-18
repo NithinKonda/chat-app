@@ -32,7 +32,7 @@ export const sendMessage = async (req,res) =>
             await conversation.save()
             res.status(200).json({newMessage})
         } catch (error) {
-            console.log("error is here")
+            console.log("error is at message.controller.js",error)
             res.status(500).json({error:"INTERNAL SERVER ERROR"})
         }
     }

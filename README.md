@@ -2,12 +2,7 @@
 
 A real-time chat application built using the MERN stack (MongoDB, Express, React, Node.js) with user authentication and WebSocket support via Socket.io.
 
-## Table of Contents
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
 
 ## Features
 
@@ -35,9 +30,4 @@ To get a copy of the project up and running on your local machine for developmen
 - MongoDB (v4.0 or later)
 - npm (Node Package Manager)
 
-### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/NithinKonda/chat-app.git
-   cd chat-app
